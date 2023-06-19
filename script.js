@@ -1,43 +1,26 @@
-//OBJECT : Mthods /properties / identities
-/*
+// Function : Ketword-function
+function greet(){
+    console.log("hi");
 
-// object has values, object get entries, has properties
-console.log(console)
-console.log('hello')
-console.error('hello')  ///error
-console.warn('hello')  //warning 
-console.log(window)
-console.log(window.innerHeight)
-console.log(window.innerWidth)
-
-window.alert('Hello world') //window Object
-const name = window.prompt('what is your name') //window Object
-console.log(name)
-
-*/
-
-//const names = ['hohn','jane','jack'] // array object
-//console.log(names);
-
-// JSON : JavaScript Object Notation
-const obj = {
-    name : 'john',
-    age : 25,
-    isMarried :false,
-    greet: function(){        // greet has a method
-        console.log("Hello!")
-    },
-    address:{          // Object has an another OBJECT Between, address is an another object
-        city : 'Giridih',
-        state : 'Jharkhand',
-        pin : 12345
-    }, 
-    hobbies : [ 'music', 'sports']  // Array object
 }
-obj.greet();
-console.log(obj.address)
-console.log(obj.hobbies)
-//console.log(obj);
+greet();  //call to greet function
+const store = greet(); 
+console.log(store)
 
-// FUNCTION
- 
+
+//Function parameters
+function name_age(name, age){
+    console.log("Your name is " + name+ " and age is ",age)
+
+}
+// if don't pss parameter, print undefine, not will give error
+name_age(); //nothing any parameter
+name_age("sumit",25); //pass parameter through fn_
+
+//-----------------------------
+//create a variable and give it to  fn
+const greet2 = function(name, gaon){
+    console.log("Hello " + name + " you are from " +gaon);
+
+} 
+greet2("Manoj", "jharkhand");
