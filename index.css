@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border:4px dashed rgb(222, 22, 2); */
+    border : 10px double  blue;
+
+    /* border-top: 2px solid purple; */
+    /* border-right: 10px dotted blue; */
+
+
+    font-size:1.5rem;
+    margin: 2.5rem;
+
+    /* margin-top: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom:1.5rem;
+    margin-left: 2rem;*/
+    padding: 1.5rem; 
+
+    outline:5px solid purple;
+    /* outline-offset:10px; */
+    outline-offset: -20px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color:gold;
+    margin:3rem auto; /* left right margin of cirlce = middle */
+    border:2px solid #000;
+
+
+
+    outline: 2px solid rgb(224, 135, 224);
+    outline-offset:5px;
+    border-radius: 50px;
+    
+}
+ h1{
+    flex: content;
+    color: #009;
+}
