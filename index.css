@@ -1,46 +1,41 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
-/* main{
-    opacity: 0.4;
-} */
-
-
-  a{
-    /* text-decoration: none; */
-    /* cursor: not-allowed; */
-    /* cursor: pointer; */
-    color:hsl(22, 86%, 37%);
-    font-size:xx-large;
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+body{
+  padding: 5% 10%;
+  font-size: 1.5rem;
+  font-family: "Roboto",sans-serif;
 }
-a:link {
-  color: red;
-}
+ol{
 
-/* a link the user has visited */
-a:visited{
-  color: rgb(94, 148, 8);
+  /* list-style-type: lower-alpha; */
+   /* list-style: decimal;                       Defalt */
+   /* list-style-type: decimal-leading-zero;              */
+  /* list-style-type: disc; */
+  /* list-style-type: circle; */
+  /* list-style-type: lower-roman; */
+
+  /* list-style: none ; */
+  /* padding: 0; */
 }
 
-a:hover{
-  color: rgb(14, 30, 22);
+ul{
+  /* list-style-type: square; */
+  text-align:;
+  list-style-position: ;
+  /* list-style-position: inside; */
+  color: rgb(17, 32, 17);
+  /* line-height: 1.8; */
+  /* list-style-image :url("images/9004773_tick_check_mark_accept_icon.png"); */
+  /* list-style: square url("images/circle_check_mark.jpg"); */
+  list-style-image: linear-gradient(to right bottom, red, blue);
 }
 
-/* a link the moment it is clicked */
-a:active {
-    color:blue;
+ul li:nth-child(odd){
+  color: aqua ;
 }
-/* a:hover a:focus{
-  color: hsl(30, 86%, 37%, 09);
-  opacity: 0.8;
-   background: rgb(255, 0, 255);
-} */
-
-
-
-/* NOTE : 1. a:active MUST come after a:hover
-          2. a:hover MUST come after a:visited and a:link
-
-
-*/
+ul ::marker{
+  font-size: 2em;
+  font-family: fantasy;
+  /* content: "only $5 >> "; */
+}
+ 
