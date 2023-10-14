@@ -3,31 +3,29 @@ body{
   font-size: 1.5rem;
 
 }
-.block{
-  border: 1px solid #333;
-  background-color: aqua;
-  width: 20vw;
-  height: 20vh;
-  margin-top: 10px;
-  padding:5rem
-
+.colums{
+  /* column-count: 4;
+  column-width: 250px; */
+  columns: 4 250px;
+  column-rule: 2px solid #333 ;
 }
-.left{
-  float: left;
-  margin-left:1rem;
-
+.colums p{
+  margin-top:0;
 }
-.right{
-  float: right;
-  margin-right: 1rem;
+.colums h2 {
+  border: 2px solid #333;
+  background-color:salmon;
+  break-inside: avoid;
+  text-align: center;
+  
+  
 }
-.clear{
-  clear: both;
+.quote{
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
 }
-section{
-  background-color: bisque;
-  border: 1px solid #333;
-  padding: 1rem;
-  /* overflow: auto; */
-  display: flow-root;
+.nowrap{
+  white-space:nowrap; 
 }
