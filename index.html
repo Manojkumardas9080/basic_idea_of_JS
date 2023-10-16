@@ -9,36 +9,38 @@
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
   </head>
   <body>
-    <section class="colums">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-        delectus esse ab.
-      </p>
-      <p>
-        Lorem ipsum doectetur it. Perferendis delectus esse aliquam molestias
-        iste ab.
-      </p>
-      <!-- <h2>Next topic</h2> -->
-      <p class="quote">
-        &#8220;Where is my rug, man?&#8221;
-        <span class="nowrap">&#8211;The Dude</span>
-      </p>
-      <p>
-        Hey my name name is manoj i'm from jharkhand state but at the moment i'm
-        staying in kolkata.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, quasi
-        hic? Vel iusto quisquam magni?
-      </p>
-    </section>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nemo
-      excepturi odio quos dignissimos ex facilis, ipsa ea facere ad.
-    </p>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nemo
-      excepturi odio quos dignissimos ex facilis, ipsa ea facere ad.
-    </p>
+    <div class="outer-container">
+      <div class="inner-container">
+        <div class="box absolute">
+        <p>Absolute</p>
+        </div>
+        <div class="box relative"></div>
+        <P>Relative</P>
+      </div>
+      <div class="box fixed">
+        <p>Fixed</p>
+      </div>
+      <div class="box sticky">
+        <p>sticky</p>
+      </div>
+    </div>
+    </div>
+
+    <script>
+     const data = {
+      name : "manoj",
+      roll : "76",
+      branch : "mca"
+
+     }
+     console.log(data.name);
+     console.log(data.roll);
+     console.log(data.branch);
+     console.log(data );
+     console.log(data.name)
+
+    </script>
+
   </body>
 </html>
+

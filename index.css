@@ -1,31 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   font-family: "Robato", sans-serif;
   font-size: 1.5rem;
+  min-height: 200vh;
 
 }
-.colums{
-  /* column-count: 4;
-  column-width: 250px; */
-  columns: 4 250px;
-  column-rule: 2px solid #333 ;
-}
-.colums p{
-  margin-top:0;
-}
-.colums h2 {
-  border: 2px solid #333;
-  background-color:salmon;
-  break-inside: avoid;
-  text-align: center;
-  
+.outer-container{
+  border: 3px dashed #000;
+  width:75vw;
+  height: 85vh;
+  margin:40px auto;
   
 }
-.quote{
-  font-size: 3rem;
-  text-align: center;
-  color: #333;
-  column-span: all;
+.inner-container{
+  border:2px solid #00f;
+  width:40vw;
+  height: 50vh;
+  margin: 200px auto;
 }
-.nowrap{
-  white-space:nowrap; 
+.box{
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  padding: 1rem;
+  te
 }
